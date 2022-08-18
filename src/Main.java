@@ -8,7 +8,8 @@ public class Main {
         System.out.println("Saldo Actual: "+miCuenta.getSaldoActual());
         miCuenta.retirar(250000);
         System.out.println("Saldo Actual: "+miCuenta.getSaldoActual());
-        miCuenta.setNumero(987654);
+        System.out.println(miCuenta.toString());
+        miCuenta.setNumero("987654");
         System.out.println(miCuenta.toString());
         System.out.println("________________________________");
 
